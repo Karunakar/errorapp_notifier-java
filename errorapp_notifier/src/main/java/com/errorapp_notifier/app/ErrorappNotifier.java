@@ -1,13 +1,13 @@
 package com.errorapp_notifier.app;
 
 /**
- * Hello world!
+ * ErrorappNotifier
  *
  */
-public class ErrorappNotifier 
+public class ErrorappNotifier  extends RuntimeException 
 {
-    public static void main( String[] args )
+    public ErrorappNotifier(Throwable cause)
     {
-        System.out.println( "Hello World!" );
+      super(cause);
     }
 }
