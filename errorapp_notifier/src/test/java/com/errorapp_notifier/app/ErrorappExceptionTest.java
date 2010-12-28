@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class ErrorappNotifierTest 
+public class ErrorappExceptionTest 
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class ErrorappNotifierTest
      *
      * @param testName name of the test case
      */
-    public ErrorappNotifierTest( String testName )
+    public ErrorappExceptionTest( String testName )
     {
         super( testName );
     }
@@ -25,13 +25,13 @@ public class ErrorappNotifierTest
      */
     public static Test suite()
     {
-        return new TestSuite( ErrorappNotifierTest.class );
+        return new TestSuite( ErrorappExceptionTest.class );
     }
 
     /**
      * Rigourous Test :-)
      */
-    public void testErrorappNotifier()
+    public void testErrorappException()
     {
         assertTrue( true );
     }
